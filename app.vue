@@ -1,5 +1,10 @@
 <template>
-  <div>
-    <NuxtWelcome />
+  <!-- <NuxtWelcome /> -->
+  <div class="">
+    <HeroSection />
   </div>
 </template>
+
+<script setup>
+import HeroSection from './components/HeroSections.vue'
+</script>
