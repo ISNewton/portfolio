@@ -7,5 +7,15 @@ export default defineNuxtConfig({
       autoprefixer: {},
     },
   },
+  app: {
+    head: {
+      script: [
+        {
+          src: '_nuxt/assets/js/animate.js'
+        }
+      ]
+    }
+  },
   css: ["@/assets/css/main.css"],
+
 });

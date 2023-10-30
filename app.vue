@@ -7,4 +7,11 @@
 
 <script setup>
 import HeroSection from './components/HeroSections.vue'
+import './assets/css/css.css'
 </script>
+
+<style>
+* {
+  font-family: 'Inter';
+}
+</style>
