@@ -18,7 +18,6 @@ export default defineNuxtConfig({
     },
   },
   css: ["@/assets/css/main.css"],
-  modules: ["@vueuse/motion/nuxt"],
   // nuxt.config.js
   runtimeConfig: {
     public: {

@@ -3,12 +3,13 @@
     <div class="w-full max-w-4xl px-4 mx-auto flex items-center">
       <div class="flex-1">
         <!-- <p class="text-white text-3xl font-mono">ASH</p> -->
-        <a class="block h-14 w-14 relative rounded-full border-2 border-white dark:border-gray-700 group shadow">
+        <a class="inline-block h-14 w-14 relative rounded-full  border-white dark:border-gray-700 group shadow">
           <img
           class="absolute inset-0  group-hover:opacity-80 transition-all duration-150"
           src="images/me.png"
           alt="Ashraf Alhaj" />
         </a>
+        <span class="text-white my-auto text-3xl">ASH</span>
       </div>
 
       <nav class="hidden sm:block flex-1">

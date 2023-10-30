@@ -1,8 +1,8 @@
 <template>
     <div class="min-h-screen  flex flex-col bg-white dark:bg-gray-900 selection:bg-indigo-500 selection:text-white">
         <!-- <AnimationIcons> -->
+        <ParticlesAnimation >
         <TheHeader />
-        <ParticlesAnimation />
         <div x-show="menu" style="display: none" class="fixed inset-0 bg-white dark:bg-gray-900 z-20">
             <div class="h-20 px-4 flex items-center justify-between">
                 <a class="block h-14 w-14 relative rounded-full border-2 border-white dark:border-gray-700 group shadow"
@@ -44,7 +44,9 @@
             <!-- </p> -->
         </footer>
         <!-- </AnimationIcons> -->
+        </ParticlesAnimation >
     </div>
+
     <!-- <div class="columns-2 h-screen w-screen"> -->
     <!--   <div class="flex items-center h-full justify-center "> -->
     <!--     <div> -->
