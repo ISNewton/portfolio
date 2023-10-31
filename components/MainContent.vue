@@ -14,20 +14,21 @@
           things. I'm currently building Airlume and RocketLog, and I work on
           the Laravel core team.
         </h2>
-        <div class="flex justify-center mt-12 text-center gap-20">
+        <div class="flex justify-center pt-12 text-center gap-20">
 
-          <div class="w-10 h-8 ">
-            <img class="max-w-full laravel-shadow" src="images/laravel.svg" />
+
+          <div class="w-8 hover:w-12 transition-all ease-in-out duration-500  h-8 laravel-shadow  cursor-pointer ">
+            <img class="max-w-full" src="images/laravel.svg" />
           </div>
 
-          <div class="w-8 h-8 vue-shadow">
+          <div class="w-8 hover:w-12 transition-all ease-in-out duration-500  h-8 vue-shadow  cursor-pointer ">
             <img class="max-w-full" src="images/vue.svg" />
           </div>
-          <div class="w-8 h-8 livewire-shadow">
+          <div class="w-8 hover:w-12 transition-all ease-in-out duration-500  livewire-shadow cursor-pointer">
             <img class="max-w-full" src="images/livewire.svg" />
           </div>
 
-          <div class="w-8 h-8 react-shadow">
+          <div class="w-8 ease-in transition-all hover:w-12 duration-500 react-shadow cursor-pointer">
             <img class="max-w-full" src="images/react.svg" />
           </div>
         </div>
@@ -43,19 +44,18 @@
 </template>
 
 <style>
-.laravel-shadow {
-  filter: drop-shadow(0 0 0.8rem red);
-  overflow: visible;
+.laravel-shadow:hover {
+  filter: drop-shadow(0 0 1rem red);
 }
 
-.react-shadow {
+.react-shadow:hover {
     filter: drop-shadow(0 0 1rem #07d5fa);
 }
 
-.vue-shadow {
+.vue-shadow:hover {
     filter: drop-shadow(0 0 1rem  #4dba87);
 }
-.livewire-shadow {
+.livewire-shadow:hover {
   filter: drop-shadow(0 0 1rem #fb70a9);
 }
 
