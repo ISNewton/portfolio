@@ -7,7 +7,6 @@
 <script setup lang="ts">
 const onLoad = (container: any) => {
     // Do something with the container
-    console.log(container);
     container.play();
     // container.pause();
     // setTimeout(() => container.play(), 2000);

@@ -1,6 +1,6 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["nuxt-particles"],
+  modules: ["nuxt-particles", '@vueuse/motion/nuxt'],
   devtools: { enabled: true },
   postcss: {
     plugins: {
@@ -9,6 +9,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
+    pageTransition: { name: 'page', mode: 'out-in' },
     head: {
       script: [
         {
