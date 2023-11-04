@@ -52,4 +52,9 @@
 
 <script setup lang="ts">
 const colorMode = useColorMode();
+
+watch(colorMode, (m) => {
+  console.log(m)
+})
+// console.log(colorMode.value)
 </script>
