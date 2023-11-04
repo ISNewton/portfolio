@@ -1,6 +1,13 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
-  modules: ["nuxt-particles", '@vueuse/motion/nuxt'],
+  modules: [
+    "nuxt-particles",
+    "@vueuse/motion/nuxt",
+    "@nuxtjs/color-mode",
+  ],
+   colorMode: {
+    classSuffix: ''
+  },
   devtools: { enabled: true },
   postcss: {
     plugins: {
@@ -9,7 +16,7 @@ export default defineNuxtConfig({
     },
   },
   app: {
-    pageTransition: { name: 'page', mode: 'out-in' },
+    pageTransition: { name: "page", mode: "out-in" },
     head: {
       script: [
         {
