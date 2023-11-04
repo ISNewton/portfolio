@@ -1,14 +1,14 @@
 <template>
   <article class="flex-1 flex items-center justify-center">
     <div class="w-full max-w-3xl px-4 py-12">
-      <div class="mt-8 dark:text-black prose prose-zinc sm:prose-lg dark:prose-invert max-w-none">
+      <div class="mt-8 text-black dark:text-white prose prose-zinc sm:prose-lg dark:prose-invert max-w-none">
         <h1 v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }"
-          class="leading-{39} opacity-0 text-black dark:text-black text-6xl font-bold font-sans">
+          class="leading-{39} opacity-0 text-6xl font-bold font-sans">
           Ashraf Alhaj - Creative Fullstack Engineer
         </h1>
 
         <h2 v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }" :delay="500"
-          class="text-black opacity-0 mt-8 font-mono">
+          class="text-black dark:text-white opacity-0 mt-8 font-mono">
           Hi there! I'm Ashraf Alhaj from Khartoum, Sudan, and I like to make
           things. I'm currently building Airlume and RocketLog, and I work on
           the Laravel core team.
