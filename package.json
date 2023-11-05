@@ -23,6 +23,8 @@
     "framer-motion": "^10.16.4",
     "nvm": "^0.0.4",
     "vue-icons": "^2.0.0",
+    "vue-typed-js": "^0.1.2",
+    "vue-writer": "^1.2.0",
     "vue3-particles": "^2.12.0"
   }
 }

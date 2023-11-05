@@ -1,53 +1,58 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
+  plugins: [
+    {
+      src: '~/plugins/vue-writer.ts'
+    }
+  ],
   modules: [
     "nuxt-particles",
     "@vueuse/motion/nuxt",
     "@nuxtjs/color-mode",
   ],
-   colorMode: {
+  colorMode: {
     classSuffix: ''
   },
   devtools: { enabled: true },
   postcss: {
     plugins: {
       tailwindcss: {},
-      autoprefixer: {},
+  autoprefixer: {},
     },
   },
   app: {
-    pageTransition: { name: "page", mode: "out-in" },
-    head: {
-      htmlAttrs: {
-        class : 'dark'
-      },
-      script: [
-        {
-          src: "_nuxt/assets/js/animate.js",
-        },
-      ],
+  pageTransition: { name: "page", mode: "out-in" },
+  head: {
+    htmlAttrs: {
+      class: 'dark'
     },
+    script: [
+      {
+        src: "_nuxt/assets/js/animate.js",
+      },
+    ],
   },
-  css: ["@/assets/css/main.css"],
+},
+  css: ["@/assets/css/main.css" ],
   // nuxt.config.js
   runtimeConfig: {
-    public: {
-      motion: {
-        directives: {
-          "pop-bottom": {
-            initial: {
-              scale: 0,
-              opacity: 0,
-              y: 100,
-            },
-            visible: {
-              scale: 1,
-              opacity: 1,
-              y: 0,
-            },
+  public: {
+    motion: {
+      directives: {
+        "pop-bottom": {
+          initial: {
+            scale: 0,
+            opacity: 0,
+            y: 100,
+          },
+          visible: {
+            scale: 1,
+            opacity: 1,
+            y: 0,
           },
         },
       },
     },
   },
+},
 });
