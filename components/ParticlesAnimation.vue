@@ -1,5 +1,5 @@
 <template>
-    <!-- <NuxtParticles id="tsparticles" :options="options" @load="onLoad" /> -->
+    <NuxtParticles id="tsparticles" :options="options" @load="onLoad" />
 
     <slot />
 </template>
@@ -17,7 +17,6 @@ const onLoad = (container: any) => {
     // Do something with the container
     tsContainer.value = container;
     // container.play();
-    console.log(container);
     container.loadTheme("dark"); //dark mode
     // container.pause();
     // setTimeout(() => container.play(), 2000);
@@ -28,7 +27,6 @@ watch(colorMode, async (mode) => {
     if (tsContainer.value.id) {
         // @ts-ignore
         let a = await tsContainer.value?.loadTheme(mode.preference);
-        console.log(a)
     }
 });
 
