@@ -3,16 +3,18 @@
     <div class="w-full max-w-3xl px-4 py-12">
       <div class="mt-8 text-black dark:text-white prose prose-zinc sm:prose-lg dark:prose-invert max-w-none">
         <h1 v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }"
-          class="leading-{50} opacity-0 text-6xl font-bold font-sans">
+          class="leading-{50} opacity-0 text-6xl font-bold writer-font">
           Innovative Full-Stack Enginner Building Digital Dreams.
         </h1>
-        <h2 
-          class="text-black  dark:text-white mt-8 font-mono">
-          <VueWriter
-            :start="700"
-            :array="[text]" :delay="1" :iterations="1" :typeSpeed="20"  
-            />
-        </h2>
+        <h1 v-motion :delay="400" :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }"
+          class=" opacity-0 text-lg mt-8 font-mono">
+          {{text}}
+        </h1>
+        <!-- <h4 class="text-sky-600">ksjdfklsdjfldjf</h4> -->
+        <!-- <h1 class="text-black dark:text-white mt-8"> -->
+        <!--   text -->
+        <!--   <VueWriter :start="700" :array="[text]" :delay="1" :iterations="1" :typeSpeed="20" /> -->
+        <!-- </h1> -->
       </div>
 
       <div class="mt-8 lg:mt-10">
@@ -29,6 +31,19 @@ const text = ref(
 </script>
 
 <style>
+.writer-font {
+  font-family: "Lekton", sans-serif;
+  font-weight: 400;
+}
+
+html.dark .is-typed {
+  color: red;
+}
+
+html.light .is-typed {
+  color: green;
+}
+
 .laravel-shadow:hover {
   filter: drop-shadow(0 0 1rem red);
 }
