@@ -9,6 +9,8 @@ import VueImage from "@/public/images/vue.svg";
 import ReactImage from "@/public/images/react.svg";
 import LaravelImage from "@/public/images/laravel.svg";
 import LivewireImage from "@/public/images/livewire.svg";
+import NuxtImage from "@/public/images/nuxt.svg";
+import NextImage from "@/public/images/next.svg";
 const colorMode = useColorMode();
 
 const tsContainer = ref({});
@@ -99,6 +101,14 @@ const options = {
 
                 {
                     src: LivewireImage,
+                },
+
+                {
+                    src: NuxtImage,
+                },
+
+                {
+                    src: NextImage,
                 },
             ],
         },
