@@ -53,8 +53,10 @@
 <script setup lang="ts">
 const colorMode = useColorMode();
 
-watch(colorMode, (m) => {
-  console.log(m)
+watch(colorMode, (n , o) => {
+  console.log(n.value , o.value)
+  if(n !== o) {
+    console.log('not equals')
+  }
 })
-// console.log(colorMode.value)
 </script>

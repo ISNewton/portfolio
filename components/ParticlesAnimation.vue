@@ -5,20 +5,29 @@
     <slot />
 </template>
 <script setup lang="ts">
+import VueImage from "@/public/images/vue.svg";
+import ReactImage from "@/public/images/react.svg";
+import LaravelImage from "@/public/images/laravel.svg";
+import LivewireImage from "@/public/images/livewire.svg";
 const colorMode = useColorMode();
 
-const tsContainer = ref({})
+const tsContainer = ref({});
 const onLoad = (container: any) => {
     // Do something with the container
-    tsContainer.value = container
+    tsContainer.value = container;
     container.play();
     console.log(container);
-    container.loadTheme("light"); //dark mode
+    container.loadTheme("dark"); //dark mode
     // container.pause();
     // setTimeout(() => container.play(), 2000);
 };
- 
 
+watch(colorMode, (mode) => {
+    // @ts-ignore
+    if (tsContainer.value.id) {
+        console.log(tsContainer.value?.loadTheme(mode.preference));
+    }
+});
 
 const options = {
     themes: [
@@ -73,6 +82,26 @@ const options = {
     },
 
     particles: {
+        shape: {
+            type: "image",
+            image: [
+                {
+                    src: VueImage,
+                },
+
+                {
+                    src: ReactImage,
+                },
+
+                {
+                    src: LaravelImage,
+                },
+
+                {
+                    src: LivewireImage,
+                },
+            ],
+        },
         move: {
             direction: "none",
             enable: true,
@@ -93,7 +122,7 @@ const options = {
         },
         size: {
             random: true,
-            value: 5,
+            value: 20,
         },
     },
 };
