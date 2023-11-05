@@ -7,7 +7,7 @@
           <!-- <img class="absolute inset-0 group-hover:opacity-80 transition-all duration-150" src="images/me.png" -->
           <!--   alt="Ashraf Alhaj" /> -->
         </a>
-        <span class="text-white my-auto text-3xl title-font">ASH</span>
+        <span class="text-dark dark:text-white my-auto text-3xl title-font">ASH</span>
       </div>
 
       <nav class="hidden sm:block flex-1">
