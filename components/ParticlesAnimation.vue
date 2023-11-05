@@ -41,7 +41,7 @@ const options = {
             },
             options: {
                 background: {
-                    color: "#000000",
+                    // color: "#111827",
                 },
                 particles: {
                     color: {

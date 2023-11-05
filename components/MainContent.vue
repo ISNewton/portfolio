@@ -3,46 +3,44 @@
     <div class="w-full max-w-3xl px-4 py-12">
       <div class="mt-8 text-black dark:text-white prose prose-zinc sm:prose-lg dark:prose-invert max-w-none">
         <h1 v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }"
-          class="leading-{39} opacity-0 text-6xl font-bold font-sans">
-          Ashraf Alhaj - Creative Fullstack Engineer
+          class="leading-{50} opacity-0 text-6xl font-bold font-sans">
+          Innovative Full-Stack Enginner Building Digital Dreams. 
         </h1>
 
         <h2 v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }" :delay="500"
           class="text-black dark:text-white opacity-0 mt-8 font-mono">
-          Hi there! I'm Ashraf Alhaj from Khartoum, Sudan, and I like to make
-          things. I'm currently building Airlume and RocketLog, and I work on
-          the Laravel core team.
+          Hi there! I'm Ashraf Alhaj, full-stack engineer with a passion for building innovative and scalable software solutions
         </h2>
-        <div class="flex justify-center pt-12 text-center gap-20">
-          <div class="opacity-0" v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0 }" :delay="700">
-            <div
-              class="w-8 transform hover:scale-125 transition-all ease-in-out duration-500 laravel-shadow cursor-pointer">
-              <img class="max-w-full" src="images/laravel.svg" />
-            </div>
-          </div>
+        <!-- <div class="flex justify-center pt-12 text-center gap-20"> -->
+        <!--   <div class="opacity-0" v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0 }" :delay="700"> -->
+        <!--     <div -->
+        <!--       class="w-8 transform hover:scale-125 transition-all ease-in-out duration-500 laravel-shadow cursor-pointer"> -->
+        <!--       <img class="max-w-full" src="images/laravel.svg" /> -->
+        <!--     </div> -->
+        <!--   </div> -->
 
-          <div class="opacity-0" v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }"
-            :delay="800">
-            <div
-              class="w-8 transform hover:scale-125 transition-all ease-in-out duration-500 h-8 vue-shadow cursor-pointer">
-              <img class="max-w-full" src="images/vue.svg" />
-            </div>
-          </div>
+        <!--   <div class="opacity-0" v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }" -->
+        <!--     :delay="800"> -->
+        <!--     <div -->
+        <!--       class="w-8 transform hover:scale-125 transition-all ease-in-out duration-500 h-8 vue-shadow cursor-pointer"> -->
+        <!--       <img class="max-w-full" src="images/vue.svg" /> -->
+        <!--     </div> -->
+        <!--   </div> -->
 
-          <div v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0 }" :delay="900" class="opacity-0">
-            <div
-              class="w-8 transform hover:scale-125 transition-all ease-in-out duration-500 livewire-shadow cursor-pointer">
-              <img class="max-w-full" src="images/livewire.svg" />
-            </div>
-          </div>
+        <!--   <div v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0 }" :delay="900" class="opacity-0"> -->
+        <!--     <div -->
+        <!--       class="w-8 transform hover:scale-125 transition-all ease-in-out duration-500 livewire-shadow cursor-pointer"> -->
+        <!--       <img class="max-w-full" src="images/livewire.svg" /> -->
+        <!--     </div> -->
+        <!--   </div> -->
 
-          <div v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }" :delay="1000"
-            class="opacity-0">
-            <div class="w-8 ease-in transition-all transform hover:scale-125 duration-500 react-shadow cursor-pointer">
-              <img class="max-w-full" src="images/react.svg" />
-            </div>
-          </div>
-        </div>
+        <!--   <div v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }" :delay="1000" -->
+        <!--     class="opacity-0"> -->
+        <!--     <div class="w-8 ease-in transition-all transform hover:scale-125 duration-500 react-shadow cursor-pointer"> -->
+        <!--       <img class="max-w-full" src="images/react.svg" /> -->
+        <!--     </div> -->
+        <!--   </div> -->
+        <!-- </div> -->
       </div>
 
       <div class="mt-8 lg:mt-10">
