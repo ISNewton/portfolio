@@ -17,7 +17,7 @@ const tsContainer = ref({});
 const onLoad = (container: any) => {
     // Do something with the container
     tsContainer.value = container;
-    container.play();
+    // container.play();
     console.log(container);
     container.loadTheme("dark"); //dark mode
     // container.pause();

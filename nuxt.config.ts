@@ -18,6 +18,9 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
+      htmlAttrs: {
+        class : 'dark'
+      },
       script: [
         {
           src: "_nuxt/assets/js/animate.js",
