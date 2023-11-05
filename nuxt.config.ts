@@ -22,6 +22,8 @@ export default defineNuxtConfig({
 
   colorMode: {
     classSuffix: "",
+    preference: 'dark',
+    fallback: 'dark',
   },
   devtools: { enabled: true },
   postcss: {

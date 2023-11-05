@@ -51,14 +51,9 @@
 </template>
 
 <script setup lang="ts">
-const colorMode = useColorMode();
 
-watch(colorMode, (n , o) => {
-  console.log(n.value , o.value)
-  if(n !== o) {
-    console.log('not equals')
-  }
-})
+
+const colorMode = useColorMode();
 
 </script>
 <style>
