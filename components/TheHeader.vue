@@ -4,10 +4,10 @@
       <div class="flex-1">
         <!-- <p class="text-white text-3xl font-mono">ASH</p> -->
         <a class="inline-block h-14 w-14 relative rounded-full border-white dark:border-gray-700 group shadow">
-          <img class="absolute inset-0 group-hover:opacity-80 transition-all duration-150" src="images/me.png"
-            alt="Ashraf Alhaj" />
+          <!-- <img class="absolute inset-0 group-hover:opacity-80 transition-all duration-150" src="images/me.png" -->
+          <!--   alt="Ashraf Alhaj" /> -->
         </a>
-        <span class="text-white my-auto text-3xl">ASH</span>
+        <span class="text-white my-auto text-3xl title-font">ASH</span>
       </div>
 
       <nav class="hidden sm:block flex-1">
@@ -59,4 +59,10 @@ watch(colorMode, (n , o) => {
     console.log('not equals')
   }
 })
+
 </script>
+<style>
+.title-font {
+    font-family: 'Satisfy', cursive;
+}
+</style>

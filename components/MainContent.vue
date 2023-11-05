@@ -1,10 +1,11 @@
 <template>
   <article class="flex-1 flex items-center justify-center">
     <div class="w-full max-w-3xl px-4 py-12">
-      <div class="mt-8 text-black dark:text-white prose prose-zinc sm:prose-lg dark:prose-invert max-w-none">
+      <div class="mt-8 text-black dark:text-white  prose prose-zinc sm:prose-lg dark:prose-invert max-w-none">
         <h1 v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }"
-          class="leading-{50} opacity-0 text-6xl font-bold writer-font">
-          Innovative Full-Stack Enginner Building Digital Dreams.
+          class="leading-2 opacity-0 text-6xl font-bold">
+          Innovative Full-Stack Enginner Building <span class="bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 via-purple-500 to-pink-500 ">
+            Digital Dreams</span>.
         </h1>
         <h1 v-motion :delay="400" :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }"
           class=" opacity-0 text-lg mt-8 font-mono">

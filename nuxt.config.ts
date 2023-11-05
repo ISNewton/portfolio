@@ -4,14 +4,8 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       Lekton: [400, 700],
-
+      "Satisfy": [400]
       // advanced
-      Raleway: {
-        // weights
-        wght: [100, 400],
-        // italic
-        ital: [100],
-      },
     },
   },
   plugins: [
