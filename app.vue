@@ -22,9 +22,7 @@ import HeroSection from "./components/HeroSections.vue";
 import "./assets/css/css.css";
 const isLoading = ref(true);
 onMounted(() => {
-  console.log(444);
   isLoading.value = false;
-  console.log(isLoading.value);
 });
 </script>
 

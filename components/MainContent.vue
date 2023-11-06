@@ -60,7 +60,6 @@
       </div>
 
       <div class="mt-8 lg:mt-10">
-        <!-- {{ partial:social-links }} -->
       </div>
     </div>
   </article>
@@ -69,65 +68,14 @@
 <script setup lang="ts">
 const colorMode = useColorMode();
 
-const text = ref(
-  "Hi there! I'm Ashraf Alhaj, full-stack engineer with a passion for building innovative and scalable software solutions working with Laravel  , Livewire , React and Vue."
-);
-
 const fillColor = computed(() =>
   colorMode.preference == "dark" ? "white" : "black"
 );
 </script>
 
 <style>
-.laravel-shadow:hover {
-  filter: drop-shadow(0 0 1rem red);
-}
 
-.react-shadow:hover {
-  filter: drop-shadow(0 0 1rem #07d5fa);
-}
 
-.vue-shadow:hover {
-  filter: drop-shadow(0 0 1rem #4dba87);
-}
-
-.livewire-shadow:hover {
-  filter: drop-shadow(0 0 1rem #fb70a9);
-}
-
-.v-enter-active {
-  transition: all 0.5s ease;
-}
-
-.v-enter-from {
-  opacity: 0;
-}
-
-.v-enter-to {
-  opacity: 1;
-}
-
-@keyframes reveal {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
-
-.fade-enter-active,
-.fade-leave-active {
-  transition: opacity 0.5s ease;
-}
-
-.fade-enter-from,
-.fade-leave-to {
-  opacity: 0;
-}
 </style>
 
 <!-- box-shadow: 0 20px 50px 5px #fb70a9; -->

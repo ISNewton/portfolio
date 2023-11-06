@@ -8,11 +8,6 @@ export default defineNuxtConfig({
       // advanced
     },
   },
-  plugins: [
-    {
-      src: "~/plugins/vue-writer.ts",
-    },
-  ],
   modules: [
     "nuxt-particles",
     "@vueuse/motion/nuxt",

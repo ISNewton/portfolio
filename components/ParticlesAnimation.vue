@@ -4,18 +4,18 @@
     <slot />
 </template>
 <script setup lang="ts">
-import VueImage from "@/public/images/vue.svg";
-import ReactImage from "@/public/images/react.svg";
-import LaravelImage from "@/public/images/laravel.svg";
-import LivewireImage from "@/public/images/livewire.svg";
-import NuxtImage from "@/public/images/nuxt.svg";
-import NextImage from "@/public/images/next.svg";
-import TailwindImage from "@/public/images/tailwind.svg";
-import BootstrapImage from "@/public/images/bootstrap.svg";
-import PhpImage from "@/public/images/php.svg";
-import TypescriptImage from "@/public/images/typescript.svg";
-import HtmlImage from "@/public/images/html.svg";
-import CssImage from "@/public/images/css.svg";
+import VueImage from "@/assets/images/vue.svg";
+import ReactImage from "@/assets/images/react.svg";
+import LaravelImage from "@/assets/images/laravel.svg";
+import LivewireImage from "@/assets/images/livewire.svg";
+import NuxtImage from "@/assets/images/nuxt.svg";
+import NextImage from "@/assets/images/next.svg";
+import TailwindImage from "@/assets/images/tailwind.svg";
+import BootstrapImage from "@/assets/images/bootstrap.svg";
+import PhpImage from "@/assets/images/php.svg";
+import TypescriptImage from "@/assets/images/typescript.svg";
+import HtmlImage from "@/assets/images/html.svg";
+import CssImage from "@/assets/images/css.svg";
 
 
 const colorMode = useColorMode();

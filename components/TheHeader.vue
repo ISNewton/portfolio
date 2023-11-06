@@ -2,22 +2,17 @@
   <header class="h-20 flex items-center dark:bg-gray-900/60 bg-transparent sticky top-0 z-10">
     <div class="w-full max-w-4xl px-4 mx-auto flex items-center">
       <div class="flex-1">
-        <!-- <p class="text-white text-3xl font-mono">ASH</p> -->
-        <!-- <a class="inline-block h-14 w-14 relative rounded-full border-white dark:border-gray-700 group shadow"> -->
-        <!--   <!-1- <img class="absolute inset-0 group-hover:opacity-80 transition-all duration-150" src="images/me.png" -1-> -->
-        <!--   <!-1-   alt="Ashraf Alhaj" /> -1-> -->
-        <!-- </a> -->
         <span class="text-dark dark:text-white my-auto text-3xl title-font">ASH</span>
       </div>
 
-      <nav class="hidden sm:block flex-1">
-        <ul class="flex justify-center gap-6">
-          <li>
-            <a href="hi" class="font-medium py-1 hover:text-gray-900 dark:hover:text-gray-100">
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <!-- <nav class="hidden sm:block flex-1"> -->
+      <!--   <ul class="flex justify-center gap-6"> -->
+      <!--     <li> -->
+      <!--       <a href="hi" class="font-medium py-1 hover:text-gray-900 dark:hover:text-gray-100"> -->
+      <!--       </a> -->
+      <!--     </li> -->
+      <!--   </ul> -->
+      <!-- </nav> -->
 
       <div class="flex-1 flex gap-4 items-center justify-end">
         <div class="relative">
@@ -39,12 +34,12 @@
             </svg>
           </button>
         </div>
-        <button class="sm:hidden">
-          <svg class="w-6 h-6 text-gray-700 dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none"
-            viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
-          </svg>
-        </button>
+        <!-- <button class="sm:hidden"> -->
+        <!--   <svg class="w-6 h-6 text-gray-700 dark:text-gray-300" xmlns="http://www.w3.org/2000/svg" fill="none" -->
+        <!--     viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"> -->
+        <!--     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" /> -->
+        <!--   </svg> -->
+        <!-- </button> -->
       </div>
     </div>
   </header>
