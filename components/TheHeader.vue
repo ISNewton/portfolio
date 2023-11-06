@@ -3,10 +3,10 @@
     <div class="w-full max-w-4xl px-4 mx-auto flex items-center">
       <div class="flex-1">
         <!-- <p class="text-white text-3xl font-mono">ASH</p> -->
-        <a class="inline-block h-14 w-14 relative rounded-full border-white dark:border-gray-700 group shadow">
-          <!-- <img class="absolute inset-0 group-hover:opacity-80 transition-all duration-150" src="images/me.png" -->
-          <!--   alt="Ashraf Alhaj" /> -->
-        </a>
+        <!-- <a class="inline-block h-14 w-14 relative rounded-full border-white dark:border-gray-700 group shadow"> -->
+        <!--   <!-1- <img class="absolute inset-0 group-hover:opacity-80 transition-all duration-150" src="images/me.png" -1-> -->
+        <!--   <!-1-   alt="Ashraf Alhaj" /> -1-> -->
+        <!-- </a> -->
         <span class="text-dark dark:text-white my-auto text-3xl title-font">ASH</span>
       </div>
 

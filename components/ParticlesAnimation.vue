@@ -10,6 +10,14 @@ import LaravelImage from "@/public/images/laravel.svg";
 import LivewireImage from "@/public/images/livewire.svg";
 import NuxtImage from "@/public/images/nuxt.svg";
 import NextImage from "@/public/images/next.svg";
+import TailwindImage from "@/public/images/tailwind.svg";
+import BootstrapImage from "@/public/images/bootstrap.svg";
+import PhpImage from "@/public/images/php.svg";
+import TypescriptImage from "@/public/images/typescript.svg";
+import HtmlImage from "@/public/images/html.svg";
+import CssImage from "@/public/images/css.svg";
+
+
 const colorMode = useColorMode();
 
 const tsContainer = ref({});
@@ -70,10 +78,6 @@ const options = {
     fpsLimit: 120,
     interactivity: {
         events: {
-            onClick: {
-                enable: true,
-                mode: "push",
-            },
             onHover: {
                 enable: true,
                 mode: "repulse",
@@ -105,9 +109,34 @@ const options = {
                 {
                     src: NuxtImage,
                 },
+                ,
 
                 {
                     src: NextImage,
+                },
+
+                {
+                    src: TailwindImage,
+                },
+
+                {
+                    src: BootstrapImage,
+                },
+
+                {
+                    src: PhpImage,
+                },
+
+                {
+                    src: TypescriptImage,
+                },
+
+                {
+                    src: HtmlImage,
+                },
+
+                {
+                    src: CssImage,
                 },
             ],
         },
@@ -124,7 +153,7 @@ const options = {
                 enable: true,
                 area: 800,
             },
-            value: 12,
+            value: 10,
         },
         opacity: {
             value: 0.5,
