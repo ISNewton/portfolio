@@ -4,7 +4,7 @@
       <div class="mt-8 text-black dark:text-white prose prose-zinc sm:prose-lg dark:prose-invert max-w-none">
         <h1 v-motion :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }"
           class="leading-2 opacity-0 text-6xl font-bold">
-          Innovative Full-Stack Enginner Building
+          Innovative Full-Stack Engineer Building
           <span class="bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 via-purple-500 to-pink-500">
             Digital Dreams</span>.
         </h1>
@@ -12,10 +12,10 @@
           class="opacity-0 text-lg mt-8 font-mono">
           Hi there! I'm Ashraf Alhaj, full-stack engineer with a passion for
           building innovative and scalable software solutions working with
-          <a href="www.laravel.com" class="underline">Laravel</a> ,
-          <a href="www.laravel-livewire.com" class="underline">Livewire</a>,
-          <a href="www.react.dev" class="underline">React</a> and
-          <a href="www.vuejs.org" class="underline">Vue</a>.
+          <a href="https://laravel.com" target="_blank" class="underline">Laravel</a> ,
+          <a href="https://laravel-livewire.com" target="_blank" class="underline">Livewire</a>,
+          <a href="https://react.dev" target="_blank" class="underline">React</a> and
+          <a href="https://vuejs.org" target="_blank" class="underline">Vue</a>.
         </h1>
 
         <div class="flex justify-center gap-8 mt-16">

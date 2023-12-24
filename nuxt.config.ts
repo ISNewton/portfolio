@@ -3,7 +3,6 @@ export default defineNuxtConfig({
   //@ts-ignore
   googleFonts: {
     families: {
-      Lekton: [400, 700],
       "Satisfy": [400]
       // advanced
     },
@@ -30,36 +29,49 @@ export default defineNuxtConfig({
   app: {
     pageTransition: { name: "page", mode: "out-in" },
     head: {
-      htmlAttrs: {
-        class: "dark",
-      },
-      script: [
-        {
-          src: "_nuxt/assets/js/animate.js",
-        },
+      link: [
+        { rel: 'icon', type: 'image/x', href: '/icon.ico' }
       ],
+    meta: [
+      {
+        charset: 'utf-8',
+      },
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1'
+      }
+    ],
+    htmlAttrs: {
+      class: "dark",
+      lang: 'en',
     },
+    script: [
+      {
+        src: "_nuxt/assets/js/animate.js",
+      },
+    ],
   },
+},
   css: ["@/assets/css/main.css"],
   // nuxt.config.js
   runtimeConfig: {
-    public: {
-      motion: {
-        directives: {
-          "pop-bottom": {
-            initial: {
-              scale: 0,
-              opacity: 0,
-              y: 100,
-            },
-            visible: {
-              scale: 1,
-              opacity: 1,
-              y: 0,
-            },
+  public: {
+    motion: {
+      directives: {
+        "pop-bottom": {
+          initial: {
+            scale: 0,
+            opacity: 0,
+            y: 100,
+          },
+          visible: {
+            scale: 1,
+            opacity: 1,
+            y: 0,
           },
         },
       },
     },
   },
+},
 });
