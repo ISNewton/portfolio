@@ -10,7 +10,7 @@
         </h1>
         <h1 v-motion :delay="400" :initial="{ opacity: 0, y: 100 }" :enter="{ opacity: 1, y: 0, scale: 1 }"
           class="opacity-0 text-lg mt-8 font-mono">
-          Hi there! I'm Ashraf Alhaj, full-stack engineer with a passion for
+          Hi there! I'm <span class="font-bold">Ashraf Alhaj</span>, full-stack engineer with a passion for
           building innovative and scalable software solutions working with
           <a href="https://laravel.com" target="_blank" class="underline">Laravel</a> ,
           <a href="https://laravel-livewire.com" target="_blank" class="underline">Livewire</a>,

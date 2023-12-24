@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen flex flex-col bg-white dark:bg-gray-900">
+    <div class=" flex flex-col bg-white dark:bg-gray-900">
         <ParticlesAnimation>
             <TheHeader />
 
