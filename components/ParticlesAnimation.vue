@@ -76,15 +76,15 @@ const options = {
         },
     ],
     fpsLimit: 120,
-    interactivity: {
-        events: {
-            onHover: {
-                enable: true,
-                mode: "repulse",
-            },
-            resize: true,
-        },
-    },
+    // interactivity: {
+    //     events: {
+    //         onHover: {
+    //             enable: true,
+    //             mode: "repulse",
+    //         },
+    //         resize: true,
+    //     },
+    // },
 
     particles: {
         shape: {
@@ -119,9 +119,9 @@ const options = {
                     src: TailwindImage,
                 },
 
-                {
-                    src: BootstrapImage,
-                },
+                // {
+                //     src: BootstrapImage,
+                // },
 
                 {
                     src: PhpImage,
@@ -131,13 +131,13 @@ const options = {
                     src: TypescriptImage,
                 },
 
-                {
-                    src: HtmlImage,
-                },
+                // {
+                //     src: HtmlImage,
+                // },
 
-                {
-                    src: CssImage,
-                },
+                // {
+                //     src: CssImage,
+                // },
             ],
         },
         move: {
@@ -153,14 +153,14 @@ const options = {
                 enable: true,
                 area: 800,
             },
-            value: 10,
+            value: 5,
         },
         opacity: {
-            value: 0.5,
+            value: 0.4,
         },
         size: {
             random: true,
-            value: 20,
+            value: 15,
         },
     },
 };

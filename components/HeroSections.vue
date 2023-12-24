@@ -7,11 +7,11 @@
                 <MainContent />
             </main>
 
-            <footer class="p-8">
-                <p class="text-center text-xs text-gray-500">
-                    &copy; {{ new Date().getFullYear() }} Ashraf Alhaj.
-                </p>
-            </footer>
+            <!-- <footer class="p-8"> -->
+            <!--     <p class="text-center text-xs text-gray-500"> -->
+            <!--         &copy; {{ new Date().getFullYear() }} Ashraf Alhaj. -->
+            <!--     </p> -->
+            <!-- </footer> -->
         </ParticlesAnimation>
     </div>
 </template>
