@@ -6,8 +6,8 @@
       class="inset-0 h-full w-full dark:bg-[radial-gradient(#374151_1px,transparent_1px)]
       bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
       <HeroSection />
-      <svg width="5px" height="164px" viewBox="0 0 5 164" version="1.1" xmlns="http://www.w3.org/2000/svg"
-        xmlns:xlink="http://www.w3.org/1999/xlink" class="mx-auto relative mb-12">
+      <svg  width="5px" height="164px" viewBox="0 0 5 164" version="1.1" xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink" class="mx-auto dark:svg-colored  text-red-500 relative mb-12">
         <defs>
           <polygon id="path-1" points="0.305501097 0.0323 2.595 0.0323 2.595 8.45843037 0.305501097 8.45843037"></polygon>
         </defs>
@@ -62,7 +62,7 @@
       </svg>
       <AboutMe />
       <div class="my-20">
-        <svg class="mx-auto" width="54px" height="288px" viewBox="0 0 54 288" version="1.1"
+        <svg class="mx-auto dark:svg-colored" width="54px" height="288px" viewBox="0 0 54 288" version="1.1"
           xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <defs>
             <polygon id="path-1"
@@ -165,7 +165,7 @@
 
       <Testimonials />
       <div class="my-20">
-        <svg class="mx-auto" width="54px" height="288px" viewBox="0 0 54 288" version="1.1"
+        <svg class="mx-auto dark:svg-colored" width="54px" height="288px" viewBox="0 0 54 288" version="1.1"
           xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
           <defs>
             <polygon id="path-1"
@@ -265,7 +265,7 @@
           </g>
         </svg>
       </div>
-      <LetsConnect />
+      <LetsConnect class="pb-60"/>
     </div>
   </div>
 </template>

@@ -1,15 +1,14 @@
 <template>
   <div>
     <div class="text-center">
-      <h3 class="font-space-mono font-bold text-center leading-none text-2xl font-hand py-8">
+      <SectionSubtitle>
         If you're still not convinced, maybe these
         <span class="underline decoration-sky-500 decoration-wavy decoration-2">real</span>
         fans will do the trick 🍪
-      </h3>
-      <h2
-        class="font-display scale-r-2 font-bold leading-none z-10 text-3xl lg:text-6xl title-backgrounded title-backgrounded-yellow">
+      </SectionSubtitle>
+      <SectionTitle>
         TESTIMONIALS
-      </h2>
+      </SectionTitle>
     </div>
     <div class="my-40 py-8">
       <div class="grid gap-8 grid-cols-1 md:grid-cols-2">
