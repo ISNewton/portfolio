@@ -3,6 +3,7 @@
     <SectionSubtitle>
       Coffee, Code, and Cats: The Essential Ingredients of
       <span class="text-pink-400">Ash</span>
+      🍟
     </SectionSubtitle>
     <SectionTitle>
       WHOAMI

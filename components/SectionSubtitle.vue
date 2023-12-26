@@ -1,5 +1,5 @@
 <template>
-  <h3 class="font-space-mono font-bold text-center leading-none dark:text-white text-2xl font-hand py-8">
+  <h3 class="font-space-mono leading-10 sm:mx-4 font-bold text-center  dark:text-white text-2xl font-hand py-8">
     <slot></slot>
   </h3>
 </template>
