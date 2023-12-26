@@ -25,26 +25,7 @@
 </script>
 
 <style>
-.title-backgrounded {
-  background-color: transparent;
-  -webkit-box-decoration-break: clone;
-  box-decoration-break: clone;
-  display: inline;
-}
 
-.title-backgrounded-yellow {
-  background-image: linear-gradient(transparent 35%,
-      #faf77d 0,
-      #faf77d 85%,
-      transparent 0);
-}
-
-.title-backgrounded-yellow {
-  background-image: linear-gradient(transparent 35%,
-      #faf77d 0,
-      #faf77d 85%,
-      transparent 0);
-}
 
 .font-space-mono {
   font-family: "Space Mono", monospace;
