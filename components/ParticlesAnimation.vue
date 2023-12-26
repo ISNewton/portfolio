@@ -38,7 +38,7 @@ watch(colorMode, async (mode) => {
     }
 });
 
-const options = {
+const options   = {
     themes: [
         {
             name: "dark",
