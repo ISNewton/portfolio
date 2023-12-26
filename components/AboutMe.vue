@@ -5,24 +5,19 @@
       <span class="text-pink-400">Ash</span>
     </h3>
     <h2
-      class="font-display font-bold leading-none z-10 text-3xl lg:text-6xl title-backgrounded title-backgrounded-yellow">
+      class="font-display scale-r-2 font-bold leading-none z-10 text-3xl lg:text-6xl title-backgrounded title-backgrounded-yellow">
       WHOAMI
     </h2>
   </div>
+<div>
+<svg class="mx-auto max-w-lg" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" viewBox="0 0 1422 800"><g stroke-width="10" stroke="hsl(0, 0%, 0%)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="16.5 38" transform="rotate(53, 711, 400)"><path d="M564.5145721435547 254.5Q881.5145721435547 397.5 855.5145721435547 545.5 " marker-end="url(#SvgjsMarker3249)" marker-start="url(#SvgjsMarker3250)"></path></g><defs><marker markerWidth="1" markerHeight="1" refX="0.5" refY="0.5" viewBox="0 0 1 1" orient="auto" id="SvgjsMarker3249"><polygon points="0,1 0,0 1,0.5" fill="hsl(0, 0%, 0%)"></polygon></marker><marker markerWidth="1" markerHeight="1" refX="0.5" refY="0.5" viewBox="0 0 1 1" orient="auto" id="SvgjsMarker3250"><polygon points="0,0.5 1,0 1,1" fill="hsl(0, 0%, 0%)"></polygon></marker></defs></svg>
 
-  <div class="mx-40 mt-20">
-<section class="relative px-10 md:p-0  ">
-            <img class="xl:max-w-2xl" src="https://images.pexels.com/photos/5990153/pexels-photo-5990153.jpeg?auto=compress&amp;cs=tinysrgb&amp;dpr=3&amp;h=750&amp;w=1860" alt="">
-            <div class="content bg-white p-2 pt-8 md:p-12 pb-12 lg:max-w-lg w-full lg:absolute top-40 right-16">
-                <div class="flex justify-between font-bold text-sm">
-                </div>
-                <h2 class="font-space-mono text-3xl font-semibold mt-4 md:mt-10">Memes master</h2>
-                <p class="my-3 text-justify font-medium text-gray-700 leading-relaxed">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem aperiam nulla cupiditate saepe sed quis veritatis minus rem adipisci aliquid.</p>
-            </div>
-        </section>
-
+  </div>
+  <div class="">
+    
+    <ComicBook />
     <!-- <div class="relative transform lg:-right-16 -rotate-2"> -->
-    <!--   <div class="mx-auto border border-black shadow-lg py-4 px-6 relative w-1/2 bg-blue-100"> -->
+    <!--   <div class="ml-2 border border-black shadow-lg py-4 px-6 relative w-1/2 max-w-xl bg-blue-100"> -->
     <!--     <h2 class="font-display text-2xl leading-tight font-bold italic antialiased"> -->
     <!--       Memes master -->
     <!--     </h2> -->
@@ -55,7 +50,8 @@
   </div>
 </template>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+</script>
 
 <style>
 .title-backgrounded {

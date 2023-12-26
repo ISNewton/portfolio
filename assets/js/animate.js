@@ -1,6 +1,5 @@
 
 
-console.log('ania')
 const blobs = document.querySelectorAll(".blob");
 let last = 0;
 let changeSpeed = 1500;
