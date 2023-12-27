@@ -2,6 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
+
 @layer utilities {
   .svg-colored {
     filter: invert(99%) sepia(2%) saturate(21%) hue-rotate(330deg) brightness(106%) contrast(100%);

@@ -14,9 +14,6 @@ export default defineNuxtConfig({
     "@nuxtjs/color-mode",
     "@nuxtjs/google-fonts",
   ],
-  // plugins:[
-  //   // {src: '@/plugins/leader-line-vue.client',mode:'client' , ssr:false }
-  // ],
 
   colorMode: {
     classSuffix: "",
@@ -53,9 +50,6 @@ export default defineNuxtConfig({
       {
         src: "_nuxt/assets/js/animate.js",
       },
-{
-        src: "_nuxt/assets/js/leader-line.js",
-      }
     ],
   },
 },

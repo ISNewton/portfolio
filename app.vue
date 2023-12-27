@@ -1,7 +1,7 @@
 <template>
   <!-- <NuxtWelcome /> -->
   <div class="bg-white  dark:bg-gray-900">
-    <!-- <LoadingSpinner :isLoading="isLoading" /> -->
+    <LoadingSpinner :isLoading="isLoading" />
     <ParticlesAnimation  class="" >
 
     <div

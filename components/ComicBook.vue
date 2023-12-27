@@ -3,20 +3,20 @@
     <div class="panel w-100 h-[25rem] col-span-full md:col-span-1">
       <p class="text top-left">Bug Whisperer by day light</p>
       <div class="h-full">
-        <img class="object-fill h-full w-full" src="/images/programming-pretender.jpg" />
+        <img class="object-fill h-full w-full" src="/images/programming-pretender.webp" />
       </div>
     </div>
 
     <div class="panel w-100 h-[25rem] col-span-full md:col-span-1">
       <p class="text bottom-right">Or Let's say : a creative thinker</p>
       <div class="h-full">
-        <img class="object-fill h-full w-full" src="/images/bug-or-feature.png" />
+        <img class="object-fill h-full w-full" src="/images/bug-or-feature.webp" />
       </div>
     </div>
 
     <div class="panel w-100 h-[25rem] col-span-full md:col-span-1">
       <div class="h-full">
-        <img class="object-fill h-full w-full" src="/images/gamer.jpg" />
+        <img class="object-fill h-full w-full" src="/images/gamer.webp" />
       </div>
       <p class="text bottom-right">
         But by Moonlight, I Slay Dragons (in Pixels)
@@ -29,20 +29,20 @@
       <p class="text bottom-right">
         Friday? Challenge Accepted. Hold My Coffee (and Watch This Deploy)
       </p>
-        <img class="object-fill h-full w-full" src="/images/friday-deploy.jpg" />
+        <img class="object-fill h-full w-full" src="/images/friday-deploy.webp" />
       </div>
     </div>
 
 <div class="panel w-100 h-[25rem] col-span-full md:col-span-1">
       <div class="h-full">
-        <img class="object-fill h-full w-full" src="/images/memes-master.jpg" />
+        <img class="object-fill h-full w-full" src="/images/memes-master.webp" />
       </div>
       <p class="text bottom-right">My Love Language: Sharing Relatable Memes at 3 AM</p>
     </div>
 <div class="panel w-100 h-[25rem] col-span-full md:col-span-2">
       <p class="text top-left">btw they call me :</p>
       <div class="h-full">
-        <img class="object-fill h-full w-full" src="/images/ash.png" />
+        <img class="object-fill h-full w-full" src="/images/ash.webp" />
       </div>
     </div>
     <!-- <div class="panel"> -->

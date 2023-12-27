@@ -20,8 +20,6 @@
   },
   "dependencies": {
     "@vueuse/motion": "^2.0.0",
-    "leader-line": "^1.0.7",
-    "nvm": "^0.0.4",
-    "svg-dom-arrows": "github:tarkant/svg-dom-arrows"
+    "nvm": "^0.0.4"
   }
 }
