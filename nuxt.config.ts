@@ -4,8 +4,8 @@ export default defineNuxtConfig({
   googleFonts: {
     families: {
       "Space Mono " : [400 , 700],
-      "Satisfy": [400]
-      // advanced
+      "Satisfy": [400],
+      "Permanent Marker": [400]
     },
   },
   modules: [

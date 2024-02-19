@@ -2,7 +2,8 @@
   <header class="h-20 flex items-center dark:bg-gray-900/60 bg-transparent sticky top-0 z-10">
     <div class="w-full max-w-4xl px-4 mx-auto flex items-center">
       <div class="flex-1">
-        <span class="text-dark dark:text-white my-auto text-3xl title-font">ASH</span>
+        <span class="text-dark dark:text-white my-auto text-4xl title-font "
+          >Ash</span>
       </div>
 
       <!-- <nav class="hidden sm:block flex-1"> -->
@@ -53,6 +54,6 @@ const colorMode = useColorMode();
 </script>
 <style>
 .title-font {
-    font-family: 'Satisfy', cursive;
+    font-family: 'Permanent Marker', sans-serif;
 }
 </style>
