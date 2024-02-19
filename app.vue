@@ -5,7 +5,7 @@
     <ParticlesAnimation  class="" >
 
     <div
-      class="inset-0 h-full w-full dark:bg-[radial-gradient(#374151_1px,transparent_1px)] bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
+      class="relative inset-0 h-full w-full dark:bg-[radial-gradient(#374151_1px,transparent_1px)] bg-[radial-gradient(#e5e7eb_1px,transparent_1px)] [background-size:16px_16px]">
       <HeroSection />
       <svg width="5px" height="164px" viewBox="0 0 5 164" version="1.1" xmlns="http://www.w3.org/2000/svg"
         xmlns:xlink="http://www.w3.org/1999/xlink" class="mx-auto dark:svg-colored text-red-500 relative mb-12">
