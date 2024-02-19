@@ -1,7 +1,8 @@
 <template>
 <div
-      class="fixed  flex justify-center items-center bg-gray-900 top-0 left-0 right-0 bottom-0 w-full h-screen z-50 overflow-y-hidden"
-      :class="!isLoading && 'hidden'">
+  class="fixed   flex justify-center items-center bg-gray-900 top-0 left-0 right-0 bottom-0 w-full h-screen z-50 overflow-y-hidden"
+
+      :class="isLoading ? 'overflow-hidden' : 'hidden'">
       <div class="">
         <svg  xmlns="http://www.w3.org/2000/svg" fill="white" class="w-12 h-12 animate-spin" viewBox="0 0 16 16">
           <path
